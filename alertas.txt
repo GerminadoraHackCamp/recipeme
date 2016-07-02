@@ -1,0 +1,16 @@
+Alertas
+
+http://ionicframework.com/docs/v2/components/#alert
+
+  doAlert() {
+    let alert = Alert.create({
+      title: 'New Friend!',
+      subTitle: 'Your friend, Obi wan Kenobi, just accepted your friend request!',
+      buttons: ['OK']
+    });
+    this.nav.present(alert);
+  }
+
+Novo amigo
+Nova oferta
+Novo preco de produto
